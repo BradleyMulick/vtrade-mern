@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:100,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.nav-container {
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.post-link {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin-right: 6px;
+}
+.post-link:hover {
+  color: lightblue
+}
+
+.dropdown:hover {
+  color: lightblue
+}
+
+.nav-logo Link {
+    text-decoration: none;
+}
+.nav-logo Link {
+  display: flex;
+  font-family: 'Barlow Condensed', sans-serif;
+  cursor: pointer;
+  align-items: center;
+}
+
+.vtrade-logo {
+    
+    height: auto;
+    max-width: 150px;
+}
+#title-v {
+  border-bottom: 3px solid white;
+  width: auto;
+  align-self: center;
+  margin-right: 15px;
+  margin-left: 5px;
+  
+}
+.dropdown {
+  cursor: pointer;
+  margin-right: 5px;
+}
+.dropdown-title {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.dropdown-content {
+  margin-right: 8px;
+  color: white;
+  background-color: black;
+  display: none;
+  position: absolute;
+  right: 0;
+  width: 90px;
+  z-index: 1;
+  font-size: 12px;
+  font-family: 'Barlow Condensed', sans-serif;
+  align-items: center;
+}
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+  text-decoration: none;
+}
+.dropdown-content h2 {
+  width: auto;
+  text-align: center;
+  /* padding: 9px; */
+  color: white;
+  text-decoration: none;
+}
+.dropdown-content h2:hover {
+  color: lightblue;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.nav-right Link {
+  font-family: inherit;
+  color: inherit;
+  text-decoration: none;
+}
