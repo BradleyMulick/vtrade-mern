@@ -1,5 +1,5 @@
 {
-  "name": "group-full-stack",
+  "name": "vtrade-mern",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,25 +10,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/austinseaman/group-full-stack.git"
+    "url": "git+https://github.com/bradleymulick/vtrade-mern.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/austinseaman/group-full-stack/issues"
+    "url": "https://github.com/bradleymulick/vtrade-mern/issues"
   },
-  "homepage": "https://github.com/austinseaman/group-full-stack#readme",
+  "homepage": "https://github.com/bradleymulick/vtrade-mern#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.7.12",
     "uuid": "^3.3.3"
   },
-  
-"engines": {
-  "node": "10.16.3"
-},
+  "engines": {
+    "node": "10.16.3"
+  },
   "proxy": "http://localhost:8000"
-  
 }
