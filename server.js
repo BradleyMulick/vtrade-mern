@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "client", "build")))
 
 
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/storedb',
+mongoose.connect(process.env.MONGOLAB_TEAL_URI || 'mongodb://localhost:27017/storedb',
     {
         useNewUrlParser: true,
         useUnifiedTopology: true
